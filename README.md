@@ -20,4 +20,4 @@ You don't need to download the script manually or install any software.
 2. Paste the following command and hit **Enter**:
 
 ```powershell
-powershell.exe -ExecutionPolicy Bypass -STA -WindowStyle Normal -Command "irm [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/CCTV_Converter.ps1](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/CCTV_Converter.ps1) | iex"
+irm cctv-conversion.footprints.work | iex
