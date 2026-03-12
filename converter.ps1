@@ -14,7 +14,7 @@ $ffmpegPath = Join-Path $appDataDir "ffmpeg.exe"
 Function Get-VideoFiles {
     $OpenFileDialog = New-Object System.Windows.Forms.OpenFileDialog
     $OpenFileDialog.Title = "Select CCTV Video Files"
-    $OpenFileDialog.Filter = "Video Files|*.mp4;*.avi;*.dav;*.mkv;*.ts|All Files|*.*"
+    $OpenFileDialog.Filter = "Video Files|*.mp4;*.avi;*.dav;*.mkv;*.ts;*.video|All Files|*.*"
     $OpenFileDialog.Multiselect = $true 
     
     # Trick to force the dialog to the front
